@@ -2,3 +2,125 @@
 This css sheet is linked to practice.html
 You can style tags, classes (.) or ids (#) from this file.
 */
+*{
+    padding:0;
+    margin: 0;
+    /* border:0.5px solid red */
+}
+header img{
+    width: 200px;
+    padding-left: 1rem;
+    
+
+  
+}
+
+div.section1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+div.section1 img{
+    width: 700px;
+    filter: brightness(30%)
+}
+
+.main_word{
+    
+position:absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.main_word h1{
+    font-size: 35px;
+}
+.main_word h2{
+    background-color: rgb(96, 245, 101);
+    
+    font-size: 20px;
+    margin: 10px;
+  padding:10px ;
+    border-radius: 50px;
+}
+
+.section2{
+    background-color: rgb(191, 232, 150);
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  /* align-items: center;  */
+  
+}
+
+
+
+.flower{
+   display: flex;
+   position: absolute;
+   top:50px;
+   left: 70px;
+}
+.payment{
+    display: flex;
+    position: absolute;
+    top:50px;
+    left: 370px;
+}
+.phone{
+    display: flex;
+    position: absolute;
+    top:170px;
+    left: 70px;
+}
+.truck{
+    display: flex;
+    position: absolute;
+    top:170px;
+    left: 370px;
+}
+
+.icon{
+    width: 50px;
+    margin: 20px;
+    
+}
+
+.word{
+    
+    font-size: 15px;
+    opacity: 50%;
+    /* padding-top: 30px; */
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+#phone_word{
+    padding-top: 35px;
+}
+
+#truck_word{
+    padding-top: 35px;
+}
+/* #flower_word{
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+#payment_word{
+
+    width: 150px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+} */
+
